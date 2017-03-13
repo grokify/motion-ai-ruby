@@ -3,9 +3,14 @@ Motion AI Ruby SDK
 
 Simple SDK for Motion AI REST API
 
+## Installation
+
+
 ```
 $ gem install motion-ai
 ```
+
+## Usage
 
 ```
 require 'motion-ai'
