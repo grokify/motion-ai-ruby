@@ -58,7 +58,7 @@ Motion AI Docs
  [downloads-link]: https://rubygems.org/gems/motion-ai
  [dependency-status-svg]: https://gemnasium.com/grokify/motion-ai-ruby.svg
  [dependency-status-link]: https://gemnasium.com/grokify/motion-ai-ruby
- [codacy-svg]: https://api.codacy.com/project/badge/Grade/4792fe45b56b4841a7e6099c316ac0f8
+ [codacy-svg]: https://api.codacy.com/project/badge/Grade/1e014a7f38734145bff06ce0ed2af829
  [codacy-link]: https://www.codacy.com/app/grokify/motion-ai-ruby
  [docs-rubydoc-svg]: https://img.shields.io/badge/docs-rubydoc-blue.svg
  [docs-rubydoc-link]: http://www.rubydoc.info/gems/motion-ai/
