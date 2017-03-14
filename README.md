@@ -1,6 +1,15 @@
 Motion AI Ruby SDK
 ==================
 
+[![Gem Version][gem-version-svg]][gem-version-link]
+[![Dependency Status][dependency-status-svg]][dependency-status-link]
+[![Codacy Badge][codacy-svg]][codacy-link]
+[![Downloads][downloads-svg]][downloads-link]
+[![Docs][docs-rubydoc-svg]][docs-rubydoc-link]
+[![License][license-svg]][license-link]
+
+
+
 Simple SDK for [Motion AI](https://motion.ai) REST API.
 
 API endpoints:
@@ -42,3 +51,16 @@ Project Repo
 Motion AI Docs
 
 * http://docs.motion.ai/docs/api
+
+ [gem-version-svg]: https://badge.fury.io/rb/motion-ai.svg
+ [gem-version-link]: http://badge.fury.io/rb/motion-ai
+ [downloads-svg]: http://ruby-gem-downloads-badge.herokuapp.com/motion-ai
+ [downloads-link]: https://rubygems.org/gems/motion-ai
+ [dependency-status-svg]: https://gemnasium.com/grokify/motion-ai-ruby.svg
+ [dependency-status-link]: https://gemnasium.com/grokify/motion-ai-ruby
+ [codacy-svg]: https://api.codacy.com/project/badge/Grade/4792fe45b56b4841a7e6099c316ac0f8
+ [codacy-link]: https://www.codacy.com/app/grokify/motion-ai-ruby
+ [docs-rubydoc-svg]: https://img.shields.io/badge/docs-rubydoc-blue.svg
+ [docs-rubydoc-link]: http://www.rubydoc.info/gems/motion-ai/
+ [license-svg]: https://img.shields.io/badge/license-MIT-blue.svg
+ [license-link]: https://github.com/grokify/motion-ai-ruby/blob/master/LICENSE.md

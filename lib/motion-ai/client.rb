@@ -9,7 +9,7 @@ module MotionAI
     GET_CONVERSATIONS_API_PATH = '/getConversations'
     MESSAGE_BOT_API_PATH = '/messageBot'
 
-    attr_accessor: bot_id
+    attr_accessor :bot_id
 
     def initialize(api_key, bot_id)
       @api_key = api_key
