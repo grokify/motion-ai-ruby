@@ -6,7 +6,10 @@ require 'pp'
 module MotionAI
   class Client
     API_ENDPOINT = 'https://api.motion.ai/1.0'
+    GET_CONVERSATIONS_API_PATH = '/getConversations'
     MESSAGE_BOT_API_PATH = '/messageBot'
+
+    attr_accessor: bot_id
 
     def initialize(api_key, bot_id)
       @api_key = api_key
@@ -29,6 +32,19 @@ module MotionAI
       end
 
       @http.get URI.join(API_ENDPOINT, MESSAGE_BOT_API_PATH), params
+    end
+
+    def get_conversations(params = {})
+      params[:key] = @api_key
+
+      required = [:key]
+      required.each do |param|
+        unless params.key? param
+          raise "Required param #{param} not present"
+        end
+      end
+
+      @http.get URI.join(API_ENDPOINT, GET_CONVERSATIONS_API_PATH), params
     end
   end
 end

@@ -1,3 +1,5 @@
+2017-03-14
+  - Add `get_conversations`
 2017-03-13
-  - `message_bot` API
-  - initial commit
+  - Add `message_bot`
+  - Initial commit

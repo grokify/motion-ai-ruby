@@ -6,7 +6,7 @@ version = $1
 Gem::Specification.new do |s|
   s.name        = lib
   s.version     = version
-  s.date        = '2017-03-13'
+  s.date        = '2017-03-14'
   s.summary     = 'Motion AI SDK - Ruby SDK for the Motion AI API'
   s.description = 'A Ruby SDK for the Motion AI API'
   s.authors     = ['John Wang']
