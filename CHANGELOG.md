@@ -1,4 +1,6 @@
-2017-03-14
+2017-03-14 - 0.0.2
+  - Fix docs
+2017-03-14 - 0.0.1
   - Add `get_conversations`
 2017-03-13
   - Add `message_bot`
